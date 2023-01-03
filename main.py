@@ -11,8 +11,8 @@ def main():
     """
     # Name the solar system and planets in it
     sun: Sun = Sun()
-    planets: list[Planet] = []
-    solar_system = SolarSystem("Milky Way", sun, planets)
+    PLANETS: list[Planet] = []
+    solar_system = SolarSystem("Milky Way", sun, PLANETS)
     mercury = Planet("Mercury", 579_000, 24.4, "gray")
     venus = Planet("Venus", 672_000, 60.5, "yellowish")
     earth = Planet("Earth", 93_000_000, 63.7, "blue")
