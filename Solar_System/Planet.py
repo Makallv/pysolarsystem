@@ -16,11 +16,6 @@ class Planet:
         color (str): The color of the planet.
     """
 
-    PLANETS = []
-
-    # Scale for fitting in a 500*500 window
-    SCALE = 0.1
-
     def __init__(self, name: str, distance_to_sun: int, radius: float, color: str):
         self.name = name
         self.distance_to_sun = distance_to_sun

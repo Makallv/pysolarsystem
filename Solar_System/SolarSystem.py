@@ -4,7 +4,6 @@ Class solar system
 
 from Solar_System.Sun import Sun
 from Solar_System.Planet import Planet
-import turtle
 
 
 class SolarSystem:
