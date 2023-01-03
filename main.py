@@ -10,8 +10,8 @@ def main():
     Main function for solar system
     """
     # Name the solar system and planets in it
-    sun = Sun()
-    planets = []
+    sun: Sun = Sun()
+    planets: list[Planet] = []
     solar_system = SolarSystem("Milky Way", sun, planets)
     mercury = Planet("Mercury", 579_000, 24.4, "gray")
     venus = Planet("Venus", 672_000, 60.5, "yellowish")
